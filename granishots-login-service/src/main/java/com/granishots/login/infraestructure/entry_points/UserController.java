@@ -97,4 +97,12 @@ public class UserController {
         userUseCase.deleteById(id);
         return ResponseEntity.ok(ApiResponse.ok("Usuario " + id + " eliminado correctamente", null));
     }
+    @RestController
+    public class HealthController {
+
+        @GetMapping("/health")
+        public String health() {
+            return "OK";
+        }
+    }
 }

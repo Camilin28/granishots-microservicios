@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71b8568d-a49c-4957-b968-216a5e5dd0f4" name="Changes" comment="Creacion de docker para cada microservicio">
+    <list default="true" id="71b8568d-a49c-4957-b968-216a5e5dd0f4" name="Changes" comment="Correcccion de puerto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/granishots-catalog-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/granishots-catalog-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/granishots-login-service/src/main/java/com/granishots/login/infraestructure/entry_points/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/granishots-login-service/src/main/java/com/granishots/login/infraestructure/entry_points/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780081015525</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Correcccion de puerto">
+      <option name="closed" value="true" />
+      <created>1780085087962</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1780085087962</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -373,7 +381,8 @@
     <MESSAGE value="Devolucion de application.yaml" />
     <MESSAGE value="Cambio de servidor" />
     <MESSAGE value="Creacion de docker para cada microservicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion de docker para cada microservicio" />
+    <MESSAGE value="Correcccion de puerto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcccion de puerto" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
