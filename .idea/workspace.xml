@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71b8568d-a49c-4957-b968-216a5e5dd0f4" name="Changes" comment="cambios de la base de datos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="71b8568d-a49c-4957-b968-216a5e5dd0f4" name="Changes" comment="cambios de los aplicattions">
+      <change beforePath="$PROJECT_DIR$/granishots-catalog-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/granishots-catalog-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/granishots-inventory-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/granishots-inventory-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/granishots-login-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/granishots-login-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/granishots-notifications-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/granishots-notifications-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/granishots-orders-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/granishots-orders-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780034386467</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cambios de los aplicattions">
+      <option name="closed" value="true" />
+      <created>1780035511956</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1780035511956</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -325,7 +337,8 @@
     <MESSAGE value="cambios" />
     <MESSAGE value="cambios de dockerflie" />
     <MESSAGE value="cambios de la base de datos" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios de la base de datos" />
+    <MESSAGE value="cambios de los aplicattions" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios de los aplicattions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
