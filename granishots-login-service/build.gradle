@@ -10,7 +10,7 @@ description = 'GraniShots - Login & Users Microservice'
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(22)
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 

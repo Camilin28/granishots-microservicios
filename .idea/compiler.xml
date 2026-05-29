@@ -14,7 +14,7 @@
         <module name="granishots-microservicios.granishots-orders-service.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="22" />
+    <bytecodeTargetLevel target="21" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
