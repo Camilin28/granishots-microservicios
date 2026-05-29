@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71b8568d-a49c-4957-b968-216a5e5dd0f4" name="Changes" comment="cambios de dockerflie">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/granishots-catalog-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/granishots-catalog-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/granishots-inventory-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/granishots-inventory-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/granishots-login-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/granishots-login-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/granishots-notifications-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/granishots-notifications-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/granishots-orders-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/granishots-orders-service/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="71b8568d-a49c-4957-b968-216a5e5dd0f4" name="Changes" comment="cambios de dockerflie" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
