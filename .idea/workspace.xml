@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71b8568d-a49c-4957-b968-216a5e5dd0f4" name="Changes" comment="Devolucion de application.yaml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="71b8568d-a49c-4957-b968-216a5e5dd0f4" name="Changes" comment="Cambio de servidor">
+      <change beforePath="$PROJECT_DIR$/granishots-catalog-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/granishots-catalog-service/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780035762326</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Cambio de servidor">
+      <option name="closed" value="true" />
+      <created>1780080682692</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1780080682692</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -343,7 +351,8 @@
     <MESSAGE value="cambios de la base de datos" />
     <MESSAGE value="cambios de los aplicattions" />
     <MESSAGE value="Devolucion de application.yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Devolucion de application.yaml" />
+    <MESSAGE value="Cambio de servidor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio de servidor" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
