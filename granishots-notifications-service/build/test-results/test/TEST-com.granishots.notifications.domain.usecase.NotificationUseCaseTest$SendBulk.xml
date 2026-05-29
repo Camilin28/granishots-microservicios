@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sendBulk() — pruebas" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:07.728Z" hostname="DESKTOP-4RNLC2K" time="3.979">
+  <properties/>
+  <testcase name="Lista nula → BusinessException 400" classname="com.granishots.notifications.domain.usecase.NotificationUseCaseTest$SendBulk" time="3.155"/>
+  <testcase name="Lista con más de 200 elementos → BusinessException 400" classname="com.granishots.notifications.domain.usecase.NotificationUseCaseTest$SendBulk" time="0.023"/>
+  <testcase name="Exactamente 200 notificaciones → permitido" classname="com.granishots.notifications.domain.usecase.NotificationUseCaseTest$SendBulk" time="0.586"/>
+  <testcase name="Envío masivo parcial → mezcla SENT y FAILED" classname="com.granishots.notifications.domain.usecase.NotificationUseCaseTest$SendBulk" time="0.13"/>
+  <testcase name="Envío masivo exitoso → todos con status SENT" classname="com.granishots.notifications.domain.usecase.NotificationUseCaseTest$SendBulk" time="0.03"/>
+  <testcase name="Lista vacía → BusinessException 400" classname="com.granishots.notifications.domain.usecase.NotificationUseCaseTest$SendBulk" time="0.014"/>
+  <system-out><![CDATA[20:22:11.076 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.099 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.101 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.105 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.107 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.109 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.113 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.113 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.117 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.119 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.123 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.127 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.131 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.133 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.135 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.137 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.139 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.141 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.141 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.145 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.145 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.145 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.145 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.152 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.157 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.159 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.159 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.161 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.163 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.165 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.168 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.174 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.174 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.176 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.178 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.181 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.183 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.185 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.185 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.189 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.193 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.193 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.197 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.199 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.202 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.204 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.206 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.206 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.206 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.206 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.212 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.214 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.214 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.217 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.219 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.221 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.223 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.226 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.229 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.229 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.233 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.233 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.239 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.244 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.244 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.248 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.250 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.252 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.254 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.256 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.260 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.262 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.264 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.266 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.268 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.270 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.272 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.274 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.278 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.280 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.284 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.286 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.288 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.290 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.292 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.294 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.300 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.300 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.302 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.304 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.306 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.312 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.314 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.317 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.317 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.321 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.327 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.331 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.335 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.337 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.339 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.339 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.339 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.343 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.343 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.343 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.343 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.343 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.348 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.350 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.350 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.353 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.357 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.359 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.361 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.361 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.363 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.363 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.365 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.367 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.367 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.370 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.373 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.375 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.375 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.377 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.377 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.379 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.381 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.381 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.383 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.385 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.389 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.389 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.393 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.393 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.395 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.395 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.397 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.397 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.399 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.401 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.401 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.403 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.403 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.408 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.414 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.419 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.421 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.423 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.425 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.427 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.431 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.431 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.433 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.433 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.434 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.434 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.436 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.438 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.440 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.442 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.444 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.447 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.449 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.450 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.452 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.454 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.456 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.456 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.458 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.460 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.462 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.464 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.468 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.474 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.476 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.482 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.484 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.486 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.486 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.488 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.488 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.490 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.490 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.490 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.492 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.494 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.494 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.498 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.502 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.502 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.504 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.504 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.506 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.508 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.510 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.512 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.512 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.514 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.514 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ]]>&#x1f4ca;<![CDATA[ Envío masivo completado | Enviados: 200 | Fallidos: 0
+20:22:11.549 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: OK
+20:22:11.553 [Test worker] ERROR com.granishots.notifications.domain.usecase.NotificationUseCase -- ❌ Fallo al enviar notificación | Canal: PUSH | Error: error
+20:22:11.565 [Test worker] WARN com.granishots.notifications.domain.usecase.NotificationUseCase -- ⚠️ Fallo en envío masivo para Juan Pérez: Error al enviar notificación por PUSH: error
+20:22:11.567 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: OK
+20:22:11.567 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ]]>&#x1f4ca;<![CDATA[ Envío masivo completado | Enviados: 2 | Fallidos: 1
+20:22:11.670 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.672 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.672 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.674 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ]]>&#x1f4ca;<![CDATA[ Envío masivo completado | Enviados: 3 | Fallidos: 0
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\CAMILO\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.19\154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1\byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="registerEntry()" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-05-27T23:59:16.267Z" hostname="DESKTOP-4RNLC2K" time="0.06">
+  <properties/>
+  <testcase name="Debe lanzar excepción si la entrada supera el stock máximo" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$RegisterEntry" time="0.018"/>
+  <testcase name="Debe lanzar excepción si el insumo no existe" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$RegisterEntry" time="0.012"/>
+  <testcase name="Debe lanzar excepción si la cantidad es cero" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$RegisterEntry" time="0.009"/>
+  <testcase name="Debe registrar una entrada válida" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$RegisterEntry" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

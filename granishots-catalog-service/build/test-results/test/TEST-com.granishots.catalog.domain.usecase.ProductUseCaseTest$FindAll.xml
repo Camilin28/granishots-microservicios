@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="findAll()" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-05-29T02:02:58.014Z" hostname="DESKTOP-4RNLC2K" time="0.003">
+  <properties/>
+  <testcase name="Debe retornar todos los productos" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$FindAll" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

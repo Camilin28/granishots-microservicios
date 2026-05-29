@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="findByCustomerPhone()" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-28T14:31:35.928Z" hostname="DESKTOP-4RNLC2K" time="0.026">
+  <properties/>
+  <testcase name="Debe lanzar excepción si el teléfono tiene letras" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$FindByPhone" time="0.011"/>
+  <testcase name="Debe retornar pedidos por teléfono válido" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$FindByPhone" time="0.005"/>
+  <testcase name="Debe lanzar excepción si el teléfono está vacío" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$FindByPhone" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

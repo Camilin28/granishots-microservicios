@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GET /templates/{id}" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:20.931Z" hostname="DESKTOP-4RNLC2K" time="0.062">
+  <properties/>
+  <testcase name="ID no numérico → 400 Bad Request" classname="com.granishots.notifications.infraestructure.entry_points.TemplateControllerTest$FindById" time="0.029"/>
+  <testcase name="ID existente → 200 OK con plantilla" classname="com.granishots.notifications.infraestructure.entry_points.TemplateControllerTest$FindById" time="0.013"/>
+  <testcase name="ID inexistente → 404 Not Found" classname="com.granishots.notifications.infraestructure.entry_points.TemplateControllerTest$FindById" time="0.013"/>
+  <system-out><![CDATA[2026-05-28T20:22:20.898-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.granishots.notifications.infraestructure.entry_points.TemplateControllerTest$FindById]: FindById does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-28T20:22:20.920-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.granishots.notifications.NotificationsApplication for test class com.granishots.notifications.infraestructure.entry_points.TemplateControllerTest$FindById
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

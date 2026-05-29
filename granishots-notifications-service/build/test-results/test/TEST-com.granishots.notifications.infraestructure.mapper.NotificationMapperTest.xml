@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NotificationMapper — Pruebas Unitarias" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:21.178Z" hostname="DESKTOP-4RNLC2K" time="0.02">
+  <properties/>
+  <testcase name="toNotificationFromDTO → todos los campos mapeados correctamente" classname="com.granishots.notifications.infraestructure.mapper.NotificationMapperTest" time="0.003"/>
+  <testcase name="toTemplateData → todos los campos mapeados" classname="com.granishots.notifications.infraestructure.mapper.NotificationMapperTest" time="0.003"/>
+  <testcase name="toTemplateResponseDTO → todos los campos presentes" classname="com.granishots.notifications.infraestructure.mapper.NotificationMapperTest" time="0.001"/>
+  <testcase name="toTemplateFromDTO → active=true y id=null" classname="com.granishots.notifications.infraestructure.mapper.NotificationMapperTest" time="0.002"/>
+  <testcase name="toTemplate → convierte TemplateData a dominio" classname="com.granishots.notifications.infraestructure.mapper.NotificationMapperTest" time="0.002"/>
+  <testcase name="toNotificationResponseDTO → campos mapeados y sentAt incluido" classname="com.granishots.notifications.infraestructure.mapper.NotificationMapperTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

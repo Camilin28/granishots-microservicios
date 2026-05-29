@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.granishots.notifications.infraestructure.twilio.NotificationDispatcherTest$Validaciones" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:21.207Z" hostname="DESKTOP-4RNLC2K" time="0.133">
+  <properties/>
+  <testcase name="Canal no soportado → BusinessException 400" classname="com.granishots.notifications.infraestructure.twilio.NotificationDispatcherTest$Validaciones" time="0.123"/>
+  <testcase name="customerContact nulo → BusinessException 400" classname="com.granishots.notifications.infraestructure.twilio.NotificationDispatcherTest$Validaciones" time="0.005"/>
+  <testcase name="customerContact vacío → BusinessException 400" classname="com.granishots.notifications.infraestructure.twilio.NotificationDispatcherTest$Validaciones" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

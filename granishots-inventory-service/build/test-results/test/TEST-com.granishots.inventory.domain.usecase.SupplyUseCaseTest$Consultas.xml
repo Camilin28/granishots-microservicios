@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="findAll() / findLowStock() / findOutOfStock()" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-27T23:59:15.895Z" hostname="DESKTOP-4RNLC2K" time="0.096">
+  <properties/>
+  <testcase name="findOutOfStock debe retornar insumos sin stock" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$Consultas" time="0.054"/>
+  <testcase name="findLowStock debe retornar insumos con bajo stock" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$Consultas" time="0.015"/>
+  <testcase name="findAll debe retornar todos los insumos" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$Consultas" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

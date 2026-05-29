@@ -1,0 +1,23 @@
+// build.gradle raíz — configuración compartida para todos los microservicios
+plugins {
+    id 'java'
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(22)
+        }
+    }
+
+    repositories {
+        mavenCentral()
+    }
+
+    // Configuración común de test
+    tasks.named('test') {
+        useJUnitPlatform()
+    }
+}

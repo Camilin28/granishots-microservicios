@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="registerExit()" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-27T23:59:16.203Z" hostname="DESKTOP-4RNLC2K" time="0.051">
+  <properties/>
+  <testcase name="Debe registrar una salida válida" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$RegisterExit" time="0.009"/>
+  <testcase name="Debe lanzar excepción si el insumo no tiene stock" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$RegisterExit" time="0.012"/>
+  <testcase name="Debe lanzar excepción si el stock es insuficiente" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$RegisterExit" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

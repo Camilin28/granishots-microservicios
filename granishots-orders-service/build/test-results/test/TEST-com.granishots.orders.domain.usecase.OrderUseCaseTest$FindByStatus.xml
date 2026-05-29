@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="findByStatus()" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-05-28T14:31:35.910Z" hostname="DESKTOP-4RNLC2K" time="0.008">
+  <properties/>
+  <testcase name="Debe lanzar excepción si el estado es inválido" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$FindByStatus" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

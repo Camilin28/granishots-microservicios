@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="save() — guardar plantilla" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:12.671Z" hostname="DESKTOP-4RNLC2K" time="0.096">
+  <properties/>
+  <testcase name="Nombre nulo → BusinessException 400" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$Save" time="0.004"/>
+  <testcase name="Plantilla válida → guardada y retornada con active=true" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$Save" time="0.018"/>
+  <testcase name="Plantilla nula → BusinessException 400" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$Save" time="0.003"/>
+  <testcase name="Tipo inválido → BusinessException 400" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$Save" time="0.006"/>
+  <testcase name="Nombre vacío → BusinessException 400" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$Save" time="0.004"/>
+  <testcase name="Canal y tipo en minúsculas → normalizados a mayúsculas" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$Save" time="0.009"/>
+  <testcase name="Body mayor a 2000 chars → BusinessException 400" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$Save" time="0.005"/>
+  <testcase name="Nombre mayor a 100 chars → BusinessException 400" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$Save" time="0.007"/>
+  <testcase name="Body vacío → BusinessException 400" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$Save" time="0.004"/>
+  <testcase name="Canal inválido → BusinessException 400" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$Save" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

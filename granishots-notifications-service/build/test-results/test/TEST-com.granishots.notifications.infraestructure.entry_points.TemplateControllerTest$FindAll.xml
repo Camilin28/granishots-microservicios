@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GET /templates" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:21.025Z" hostname="DESKTOP-4RNLC2K" time="0.036">
+  <properties/>
+  <testcase name="Listar todas las plantillas → 200 OK con lista" classname="com.granishots.notifications.infraestructure.entry_points.TemplateControllerTest$FindAll" time="0.017"/>
+  <testcase name="Sin plantillas → 200 OK con lista vacía" classname="com.granishots.notifications.infraestructure.entry_points.TemplateControllerTest$FindAll" time="0.016"/>
+  <system-out><![CDATA[2026-05-28T20:22:20.987-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.granishots.notifications.infraestructure.entry_points.TemplateControllerTest$FindAll]: FindAll does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-28T20:22:21.017-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.granishots.notifications.NotificationsApplication for test class com.granishots.notifications.infraestructure.entry_points.TemplateControllerTest$FindAll
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

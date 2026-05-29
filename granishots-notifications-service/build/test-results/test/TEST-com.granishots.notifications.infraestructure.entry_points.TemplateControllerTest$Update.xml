@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PUT /templates/{id}" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:20.839Z" hostname="DESKTOP-4RNLC2K" time="0.05">
+  <properties/>
+  <testcase name="ID inexistente en actualización → 404 Not Found" classname="com.granishots.notifications.infraestructure.entry_points.TemplateControllerTest$Update" time="0.033"/>
+  <testcase name="Actualización exitosa → 200 OK" classname="com.granishots.notifications.infraestructure.entry_points.TemplateControllerTest$Update" time="0.014"/>
+  <system-out><![CDATA[2026-05-28T20:22:20.818-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.granishots.notifications.infraestructure.entry_points.TemplateControllerTest$Update]: Update does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-28T20:22:20.833-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.granishots.notifications.NotificationsApplication for test class com.granishots.notifications.infraestructure.entry_points.TemplateControllerTest$Update
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

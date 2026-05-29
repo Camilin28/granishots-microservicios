@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="deleteById()" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-28T14:31:35.962Z" hostname="DESKTOP-4RNLC2K" time="0.032">
+  <properties/>
+  <testcase name="Debe lanzar excepción si el pedido no existe al eliminar" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$DeleteById" time="0.009"/>
+  <testcase name="Debe lanzar excepción si el pedido no está en PENDING" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$DeleteById" time="0.008"/>
+  <testcase name="Debe eliminar un pedido en estado PENDING" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$DeleteById" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="save()" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-05-29T02:02:58.044Z" hostname="DESKTOP-4RNLC2K" time="0.077">
+  <properties/>
+  <testcase name="Debe aceptar todas las categorías válidas" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$Save" time="0.01"/>
+  <testcase name="Debe aceptar todos los tamaños válidos (8, 16, 24)" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$Save" time="0.025"/>
+  <testcase name="Debe guardar un producto válido y marcarlo como disponible" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$Save" time="0.011"/>
+  <testcase name="Debe lanzar excepción si la categoría es inválida" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$Save" time="0.005"/>
+  <testcase name="Debe lanzar excepción si el precio es cero o negativo" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$Save" time="0.005"/>
+  <testcase name="Debe lanzar excepción si el tamaño es inválido" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$Save" time="0.003"/>
+  <testcase name="Debe lanzar excepción si el nombre ya existe" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$Save" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

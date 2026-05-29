@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Canal SMS" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:21.376Z" hostname="DESKTOP-4RNLC2K" time="0.021">
+  <properties/>
+  <testcase name="SMS exitoso → retorna SID de Twilio" classname="com.granishots.notifications.infraestructure.twilio.NotificationDispatcherTest$Sms" time="0.009"/>
+  <testcase name="SMS en minúsculas → canal normalizado, SMS enviado" classname="com.granishots.notifications.infraestructure.twilio.NotificationDispatcherTest$Sms" time="0.01"/>
+  <system-out><![CDATA[2026-05-28T20:22:21.381-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] c.g.n.i.twilio.NotificationDispatcher    : ]]>&#x1f4f1;<![CDATA[ Despachando SMS → +573001234567
+2026-05-28T20:22:21.383-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] c.g.n.i.twilio.NotificationDispatcher    : ✅ SMS despachado | SID: SM_ABC123
+2026-05-28T20:22:21.392-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] c.g.n.i.twilio.NotificationDispatcher    : ]]>&#x1f4f1;<![CDATA[ Despachando SMS → +573001234567
+2026-05-28T20:22:21.394-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] c.g.n.i.twilio.NotificationDispatcher    : ✅ SMS despachado | SID: SID
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

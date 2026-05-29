@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="send() — fallos del dispatcher" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:11.734Z" hostname="DESKTOP-4RNLC2K" time="0.041">
+  <properties/>
+  <testcase name="Dispatcher lanza RuntimeException → BusinessException 502" classname="com.granishots.notifications.domain.usecase.NotificationUseCaseTest$SendFalloDispatcher" time="0.025"/>
+  <testcase name="Dispatcher lanza BusinessException → se re-lanza sin envolver" classname="com.granishots.notifications.domain.usecase.NotificationUseCaseTest$SendFalloDispatcher" time="0.013"/>
+  <system-out><![CDATA[20:22:11.744 [Test worker] ERROR com.granishots.notifications.domain.usecase.NotificationUseCase -- ❌ Fallo al enviar notificación | Canal: SMS | Error: Twilio error
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

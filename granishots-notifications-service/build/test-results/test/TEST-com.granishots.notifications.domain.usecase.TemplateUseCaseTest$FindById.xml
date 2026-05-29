@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="findById() — buscar por ID" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:12.611Z" hostname="DESKTOP-4RNLC2K" time="0.051">
+  <properties/>
+  <testcase name="ID nulo → BusinessException 400" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$FindById" time="0.012"/>
+  <testcase name="ID existente → retorna plantilla" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$FindById" time="0.004"/>
+  <testcase name="ID inexistente → BusinessException 404" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$FindById" time="0.007"/>
+  <testcase name="ID negativo → BusinessException 400" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$FindById" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

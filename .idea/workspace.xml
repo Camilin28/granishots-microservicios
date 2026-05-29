@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="71b8568d-a49c-4957-b968-216a5e5dd0f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/granishots.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/granishots-catalog-service/granishots-microservicios.granishots-catalog-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/granishots-catalog-service/granishots-microservicios.granishots-catalog-service.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/granishots-inventory-service/granishots-microservicios.granishots-inventory-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/granishots-inventory-service/granishots-microservicios.granishots-inventory-service.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/granishots-login-service/granishots-microservicios.granishots-login-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/granishots-login-service/granishots-microservicios.granishots-login-service.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/granishots-orders-service/granishots-microservicios.granishots-orders-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/granishots-orders-service/granishots-microservicios.granishots-orders-service.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/granishots/.idea/modules/granishots-catalog-service/granishots-microservicios.granishots-catalog-service.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/granishots/.idea/modules/granishots-inventory-service/granishots-microservicios.granishots-inventory-service.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/granishots/.idea/modules/granishots-login-service/granishots-microservicios.granishots-login-service.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/granishots/.idea/modules/granishots-notifications-service/granishots-microservicios.granishots-notifications-service.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/granishots/.idea/modules/granishots-orders-service/granishots-microservicios.granishots-orders-service.main.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3EKQHJ9QVdH9pgBbLqTAtXBimsk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.NotificationUseCaseTest.executor": "Coverage",
+    "Gradle.OrderUseCaseTest.executor": "Coverage",
+    "Gradle.ProductUseCaseTest.executor": "Coverage",
+    "Gradle.SupplyUseCaseTest.executor": "Coverage",
+    "Gradle.Tests in 'com.granishots.login.domain.usecase'.executor": "Coverage",
+    "Gradle.Tests in 'com.granishots.notifications'.executor": "Coverage",
+    "Gradle.Tests in 'com.granishots.notifications.domain.usecase'.executor": "Coverage",
+    "Gradle.UserUseCaseTest.executor": "Coverage",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/CAMILO/Desktop/granishots",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.Tests in 'com.granishots.catalog.domain.usecase'">
+    <configuration name="NotificationUseCaseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":granishots-notifications-service:test" />
+            <option value="--tests" />
+            <option value="&quot;com.granishots.notifications.domain.usecase.NotificationUseCaseTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'com.granishots.catalog.domain.usecase'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":granishots-catalog-service:test" />
+            <option value="--tests" />
+            <option value="&quot;com.granishots.catalog.domain.usecase.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'com.granishots.login.domain.usecase'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":granishots-login-service:test" />
+            <option value="--tests" />
+            <option value="&quot;com.granishots.login.domain.usecase.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'com.granishots.notifications'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":granishots-notifications-service:test" />
+            <option value="--tests" />
+            <option value="&quot;com.granishots.notifications.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'com.granishots.notifications.domain.usecase'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":granishots-notifications-service:test" />
+            <option value="--tests" />
+            <option value="&quot;com.granishots.notifications.domain.usecase.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'com.granishots.catalog.domain.usecase'" />
+        <item itemvalue="Gradle.Tests in 'com.granishots.notifications'" />
+        <item itemvalue="Gradle.Tests in 'com.granishots.login.domain.usecase'" />
+        <item itemvalue="Gradle.Tests in 'com.granishots.notifications.domain.usecase'" />
+        <item itemvalue="Gradle.NotificationUseCaseTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71b8568d-a49c-4957-b968-216a5e5dd0f4" name="Changes" comment="" />
+      <created>1779924696760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779924696760</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/granishots_microservicios$SupplyUseCaseTest.ic" NAME="SupplyUseCaseTest Coverage Results" MODIFIED="1779926337037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/granishots_microservicios$OrderUseCaseTest.ic" NAME="OrderUseCaseTest Coverage Results" MODIFIED="1779978666018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/granishots_microservicios$Tests_in__com_granishots_login_domain_usecase_.ic" NAME="Tests in 'com.granishots.login.domain.usecase' Coverage Results" MODIFIED="1779984044279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/granishots_microservicios$NotificationUseCaseTest.ic" NAME="NotificationUseCaseTest Coverage Results" MODIFIED="1779980228422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/granishots_microservicios$Tests_in__com_granishots_notifications_.ic" NAME="Tests in 'com.granishots.notifications' Coverage Results" MODIFIED="1780017712689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/granishots_microservicios$UserUseCaseTest.ic" NAME="UserUseCaseTest Coverage Results" MODIFIED="1779979639357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/granishots_microservicios$Tests_in__com_granishots_notifications_domain_usecase_.ic" NAME="Tests in 'com.granishots.notifications.domain.usecase' Coverage Results" MODIFIED="1779984009791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/granishots_microservicios$ProductUseCaseTest.ic" NAME="ProductUseCaseTest Coverage Results" MODIFIED="1779926885583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>

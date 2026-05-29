@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RunManager">
+
+    <configuration name="CatalogApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.granishots.catalog.CatalogApplication" />
+      <module name="granishots-catalog-service.main" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+
+    <configuration name="InventoryApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.granishots.inventory.InventoryApplication" />
+      <module name="granishots-inventory-service.main" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+
+    <configuration name="OrdersApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.granishots.orders.OrdersApplication" />
+      <module name="granishots-orders-service.main" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+
+    <configuration name="BillingApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.granishots.billing.BillingApplication" />
+      <module name="granishots-billing-service.main" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+
+    <configuration name="NotificationsApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.granishots.notifications.NotificationsApplication" />
+      <module name="granishots-notifications-service.main" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+
+    <configuration name="🚀 GraniShots — Todos los servicios" type="CompoundRunConfigurationType">
+      <toRun name="CatalogApplication" type="Application" />
+      <toRun name="InventoryApplication" type="Application" />
+      <toRun name="OrdersApplication" type="Application" />
+      <toRun name="BillingApplication" type="Application" />
+      <toRun name="NotificationsApplication" type="Application" />
+      <method v="2" />
+    </configuration>
+
+  </component>
+</project>

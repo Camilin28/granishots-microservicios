@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="save()" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-05-28T14:31:36.131Z" hostname="DESKTOP-4RNLC2K" time="0.163">
+  <properties/>
+  <testcase name="Debe guardar un pedido válido con estado PENDING y calcular el total" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.042"/>
+  <testcase name="Debe lanzar excepción si un ítem tiene precio nulo" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.007"/>
+  <testcase name="Debe lanzar excepción si el canal está vacío" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.006"/>
+  <testcase name="Debe lanzar excepción si el nombre del cliente está vacío" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.004"/>
+  <testcase name="Debe lanzar excepción si el canal es inválido" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.005"/>
+  <testcase name="Debe lanzar excepción si el productId es inválido" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.004"/>
+  <testcase name="Debe lanzar excepción si un ítem tiene precio cero" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.007"/>
+  <testcase name="Debe lanzar excepción si la cantidad supera 100" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.004"/>
+  <testcase name="Debe lanzar excepción si un ítem tiene cantidad cero" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.004"/>
+  <testcase name="Debe lanzar excepción si el precio supera el máximo" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.005"/>
+  <testcase name="Debe lanzar excepción si el número de mesa es inválido" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.006"/>
+  <testcase name="Debe lanzar excepción si el nombre del producto está vacío" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.003"/>
+  <testcase name="Debe lanzar excepción si la lista de ítems está vacía" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.005"/>
+  <testcase name="Debe lanzar excepción si el teléfono tiene menos de 7 dígitos" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.003"/>
+  <testcase name="Debe calcular el total correctamente como suma de items" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.005"/>
+  <testcase name="Debe lanzar excepción si la cantidad es nula" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.006"/>
+  <testcase name="Debe aceptar los tres canales válidos" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.006"/>
+  <testcase name="Debe lanzar excepción si supera el máximo de items" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.004"/>
+  <testcase name="Debe lanzar excepción si el productId es nulo" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$Save" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

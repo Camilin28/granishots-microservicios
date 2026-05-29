@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: granishots-notifications-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/notifications_db
+    username: postgres
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    open-in-view: false
+
+server:
+  port: 8085
+
+# ── Twilio Configuration ──────────────────────────────────────────────────────
+twilio:
+  account-sid: AC823044972c85ed8920b1347c4e1c7fd9
+  auth-token: 24f1b4c2699f11916d4ecd779a7c63d5
+  phone-number: "+18392227142"
+
+# ── Email Configuration (SendGrid — pendiente activación) ─────────────────────
+sendgrid:
+  api-key: "PENDIENTE"
+  from-email: "jr3986259@gmail.com"
+  from-name: "GraniShots"
+  enabled: false

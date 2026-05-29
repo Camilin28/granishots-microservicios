@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="deleteById()" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-27T23:59:16.152Z" hostname="DESKTOP-4RNLC2K" time="0.039">
+  <properties/>
+  <testcase name="Debe eliminar el insumo cuando existe" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$DeleteById" time="0.019"/>
+  <testcase name="Debe lanzar excepción si el insumo no existe" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$DeleteById" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

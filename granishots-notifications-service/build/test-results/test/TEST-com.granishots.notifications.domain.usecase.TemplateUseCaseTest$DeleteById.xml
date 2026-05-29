@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="deleteById() — eliminar plantilla" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:12.063Z" hostname="DESKTOP-4RNLC2K" time="0.369">
+  <properties/>
+  <testcase name="ID nulo → BusinessException 400" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$DeleteById" time="0.341"/>
+  <testcase name="ID inexistente → BusinessException 404" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$DeleteById" time="0.011"/>
+  <testcase name="ID existente → eliminado sin excepción" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$DeleteById" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

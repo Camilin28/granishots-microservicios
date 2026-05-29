@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Canales simulados" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:21.343Z" hostname="DESKTOP-4RNLC2K" time="0.012">
+  <properties/>
+  <testcase name="PUSH → retorna PUSH_SIMULATED" classname="com.granishots.notifications.infraestructure.twilio.NotificationDispatcherTest$Simulados" time="0.005"/>
+  <testcase name="WHATSAPP → retorna WHATSAPP_SIMULATED" classname="com.granishots.notifications.infraestructure.twilio.NotificationDispatcherTest$Simulados" time="0.005"/>
+  <system-out><![CDATA[2026-05-28T20:22:21.345-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] c.g.n.i.twilio.NotificationDispatcher    : ]]>&#x1f514;<![CDATA[ [PUSH SIMULADO] → token: device-token | Mensaje: msg
+2026-05-28T20:22:21.345-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] c.g.n.i.twilio.NotificationDispatcher    : ℹ️  Para Push real: integrar Firebase FCM o Apple APNs
+2026-05-28T20:22:21.354-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] c.g.n.i.twilio.NotificationDispatcher    : ]]>&#x1f4ac;<![CDATA[ [WHATSAPP SIMULADO] → +573001234567 | Mensaje: msg
+2026-05-28T20:22:21.354-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] c.g.n.i.twilio.NotificationDispatcher    : ℹ️  Para WhatsApp real: activar Twilio WhatsApp Sandbox en console.twilio.com
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

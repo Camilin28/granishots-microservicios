@@ -1,0 +1,13 @@
+rootProject.name = 'granishots-microservicios'
+
+include 'granishots-catalog-service'
+include 'granishots-inventory-service'
+include 'granishots-orders-service'
+include 'granishots-notifications-service'
+include 'granishots-login-service'
+
+project(':granishots-catalog-service').projectDir      = file('granishots-catalog-service')
+project(':granishots-inventory-service').projectDir    = file('granishots-inventory-service')
+project(':granishots-orders-service').projectDir       = file('granishots-orders-service')
+project(':granishots-notifications-service').projectDir = file('granishots-notifications-service')
+project(':granishots-login-service').projectDir        = file('granishots-login-service')

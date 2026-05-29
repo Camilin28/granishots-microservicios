@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="updateStatus()" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-29T02:02:57.967Z" hostname="DESKTOP-4RNLC2K" time="0.022">
+  <properties/>
+  <testcase name="Debe lanzar excepción si 'available' es nulo" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$UpdateStatus" time="0.004"/>
+  <testcase name="Debe lanzar excepción si el estado ya es el mismo" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$UpdateStatus" time="0.008"/>
+  <testcase name="Debe cambiar el estado de disponibilidad" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$UpdateStatus" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

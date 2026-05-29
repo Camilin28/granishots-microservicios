@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="findById()" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-05-27T23:59:16.382Z" hostname="DESKTOP-4RNLC2K" time="0.044">
+  <properties/>
+  <testcase name="Debe retornar el insumo cuando existe" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$FindById" time="0.009"/>
+  <testcase name="Debe lanzar excepción si el ID es negativo" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$FindById" time="0.007"/>
+  <testcase name="Debe lanzar excepción si el ID es nulo" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$FindById" time="0.012"/>
+  <testcase name="Debe lanzar excepción 404 si no existe" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$FindById" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: granishots-catalog-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/catalog_db
+    username: postgres
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+
+server:
+  port: 8081

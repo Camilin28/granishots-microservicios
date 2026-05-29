@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="save()" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-05-27T23:59:16.432Z" hostname="DESKTOP-4RNLC2K" time="0.059">
+  <properties/>
+  <testcase name="Debe lanzar excepción si la unidad es inválida" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$Save" time="0.006"/>
+  <testcase name="Debe lanzar excepción si minStock &gt; currentStock" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$Save" time="0.004"/>
+  <testcase name="Debe lanzar excepción si el nombre está vacío" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$Save" time="0.005"/>
+  <testcase name="Debe lanzar excepción si el stock actual es negativo" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$Save" time="0.005"/>
+  <testcase name="Debe normalizar nombre y unidad (trim + toUpperCase)" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$Save" time="0.007"/>
+  <testcase name="Debe lanzar excepción si el nombre ya existe" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$Save" time="0.007"/>
+  <testcase name="Debe guardar un insumo válido y retornarlo" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$Save" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

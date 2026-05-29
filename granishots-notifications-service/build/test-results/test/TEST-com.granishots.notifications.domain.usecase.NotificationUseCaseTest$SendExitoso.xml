@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="send() — casos exitosos" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:11.914Z" hostname="DESKTOP-4RNLC2K" time="0.135">
+  <properties/>
+  <testcase name="Canal en minúsculas debe normalizarse a mayúsculas" classname="com.granishots.notifications.domain.usecase.NotificationUseCaseTest$SendExitoso" time="0.025"/>
+  <testcase name="Envío por PUSH exitoso → status SENT" classname="com.granishots.notifications.domain.usecase.NotificationUseCaseTest$SendExitoso" time="0.006"/>
+  <testcase name="Envío por EMAIL exitoso → status SENT" classname="com.granishots.notifications.domain.usecase.NotificationUseCaseTest$SendExitoso" time="0.054"/>
+  <testcase name="Envío por SMS exitoso → status SENT" classname="com.granishots.notifications.domain.usecase.NotificationUseCaseTest$SendExitoso" time="0.021"/>
+  <testcase name="Envío por WHATSAPP exitoso → status SENT" classname="com.granishots.notifications.domain.usecase.NotificationUseCaseTest$SendExitoso" time="0.007"/>
+  <system-out><![CDATA[20:22:11.928 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: EMAIL | Ref: EMAIL_DISPATCHED
+20:22:11.951 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: PUSH | Ref: PUSH_SIMULATED
+20:22:11.961 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: EMAIL | Ref: EMAIL_DISPATCHED
+20:22:12.035 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: SMS | Ref: SM123456
+20:22:12.052 [Test worker] INFO com.granishots.notifications.domain.usecase.NotificationUseCase -- ✅ Notificación enviada | Cliente: Juan Pérez | Canal: WHATSAPP | Ref: WHATSAPP_SIMULATED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

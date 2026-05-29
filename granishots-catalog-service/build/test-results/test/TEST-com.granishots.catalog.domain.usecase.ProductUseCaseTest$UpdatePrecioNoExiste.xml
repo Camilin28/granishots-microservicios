@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="updatePrice() — producto no existe" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-05-29T02:02:57.922Z" hostname="DESKTOP-4RNLC2K" time="0.007">
+  <properties/>
+  <testcase name="Debe lanzar 404 si el producto no existe al actualizar precio" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$UpdatePrecioNoExiste" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

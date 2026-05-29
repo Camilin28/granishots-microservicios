@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="validarSupply() — casos límite" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-05-27T23:59:12.294Z" hostname="DESKTOP-4RNLC2K" time="3.234">
+  <properties/>
+  <testcase name="Debe lanzar excepción si el stock actual es nulo" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$ValidarSupplyCasosLimite" time="3.162"/>
+  <testcase name="Debe lanzar excepción si el stock actual supera el máximo" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$ValidarSupplyCasosLimite" time="0.011"/>
+  <testcase name="Debe lanzar excepción si el stock mínimo es nulo" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$ValidarSupplyCasosLimite" time="0.007"/>
+  <testcase name="Debe lanzar excepción si el nombre supera 100 caracteres" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$ValidarSupplyCasosLimite" time="0.007"/>
+  <testcase name="Debe lanzar excepción si el precio de compra es negativo" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$ValidarSupplyCasosLimite" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\CAMILO\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.19\154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1\byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

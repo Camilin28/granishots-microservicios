@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cancelOrder()" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-05-28T14:31:35.999Z" hostname="DESKTOP-4RNLC2K" time="0.041">
+  <properties/>
+  <testcase name="Debe lanzar excepción si el pedido ya está cancelado" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$CancelOrder" time="0.006"/>
+  <testcase name="Debe cancelar un pedido en estado PENDING" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$CancelOrder" time="0.017"/>
+  <testcase name="Debe lanzar excepción si el pedido no existe al cancelar" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$CancelOrder" time="0.006"/>
+  <testcase name="Debe lanzar excepción si el pedido ya fue entregado" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest$CancelOrder" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="updateMinStock()" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-05-27T23:59:16.007Z" hostname="DESKTOP-4RNLC2K" time="0.132">
+  <properties/>
+  <testcase name="Debe lanzar excepción si minStock es nulo" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$UpdateMinStock" time="0.006"/>
+  <testcase name="Debe lanzar excepción si minStock es negativo" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$UpdateMinStock" time="0.012"/>
+  <testcase name="Debe lanzar excepción si minStock &gt; currentStock" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$UpdateMinStock" time="0.038"/>
+  <testcase name="Debe actualizar el stock mínimo correctamente" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$UpdateMinStock" time="0.045"/>
+  <testcase name="Debe lanzar excepción si minStock supera el máximo permitido" classname="com.granishots.inventory.domain.usecase.SupplyUseCaseTest$UpdateMinStock" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

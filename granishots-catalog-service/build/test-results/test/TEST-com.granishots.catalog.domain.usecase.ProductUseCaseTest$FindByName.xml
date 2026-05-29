@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="findByName()" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-29T02:02:57.798Z" hostname="DESKTOP-4RNLC2K" time="0.054">
+  <properties/>
+  <testcase name="Debe retornar resultados con término válido" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$FindByName" time="0.034"/>
+  <testcase name="Debe lanzar excepción si el término tiene menos de 2 caracteres" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$FindByName" time="0.007"/>
+  <testcase name="Debe lanzar excepción si el término está vacío" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$FindByName" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

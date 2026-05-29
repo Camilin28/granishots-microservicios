@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="POST /send" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:19.809Z" hostname="DESKTOP-4RNLC2K" time="0.097">
+  <properties/>
+  <testcase name="Envío exitoso → 201 Created con status SENT" classname="com.granishots.notifications.infraestructure.entry_points.NotificationControllerTest$Send" time="0.019"/>
+  <testcase name="Body vacío → 400 Bad Request (validación @Valid)" classname="com.granishots.notifications.infraestructure.entry_points.NotificationControllerTest$Send" time="0.031"/>
+  <testcase name="Use case lanza BusinessException 502 → 502 retornado" classname="com.granishots.notifications.infraestructure.entry_points.NotificationControllerTest$Send" time="0.021"/>
+  <testcase name="Canal inválido en el DTO → 400 Bad Request" classname="com.granishots.notifications.infraestructure.entry_points.NotificationControllerTest$Send" time="0.015"/>
+  <system-out><![CDATA[2026-05-28T20:22:19.778-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.granishots.notifications.infraestructure.entry_points.NotificationControllerTest$Send]: Send does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-05-28T20:22:19.800-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.granishots.notifications.NotificationsApplication for test class com.granishots.notifications.infraestructure.entry_points.NotificationControllerTest$Send
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

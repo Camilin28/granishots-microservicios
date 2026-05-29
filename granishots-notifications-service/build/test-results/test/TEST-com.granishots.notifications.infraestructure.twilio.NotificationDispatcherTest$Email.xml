@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Canal EMAIL" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:21.359Z" hostname="DESKTOP-4RNLC2K" time="0.013">
+  <properties/>
+  <testcase name="EMAIL sin subject → se usa asunto por defecto" classname="com.granishots.notifications.infraestructure.twilio.NotificationDispatcherTest$Email" time="0.006"/>
+  <testcase name="EMAIL exitoso → retorna EMAIL_DISPATCHED" classname="com.granishots.notifications.infraestructure.twilio.NotificationDispatcherTest$Email" time="0.005"/>
+  <system-out><![CDATA[2026-05-28T20:22:21.363-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] c.g.n.i.twilio.NotificationDispatcher    : ]]>&#x1f4e7;<![CDATA[ Despachando EMAIL → a@b.com
+2026-05-28T20:22:21.370-05:00  INFO 13684 --- [granishots-notifications-service] [    Test worker] c.g.n.i.twilio.NotificationDispatcher    : ]]>&#x1f4e7;<![CDATA[ Despachando EMAIL → a@b.com
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

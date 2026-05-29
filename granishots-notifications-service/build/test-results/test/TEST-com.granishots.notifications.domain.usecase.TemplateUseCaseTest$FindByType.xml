@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="findByType() — buscar por tipo" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-29T01:22:12.528Z" hostname="DESKTOP-4RNLC2K" time="0.027">
+  <properties/>
+  <testcase name="Tipo nulo → BusinessException 400" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$FindByType" time="0.008"/>
+  <testcase name="Tipo inválido → BusinessException 400" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$FindByType" time="0.006"/>
+  <testcase name="Tipo válido → delega al gateway" classname="com.granishots.notifications.domain.usecase.TemplateUseCaseTest$FindByType" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

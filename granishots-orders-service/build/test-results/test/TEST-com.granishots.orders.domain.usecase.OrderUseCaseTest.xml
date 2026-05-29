@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OrderUseCase — Pruebas unitarias" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-05-28T14:31:32.816Z" hostname="DESKTOP-4RNLC2K" time="3.085">
+  <properties/>
+  <testcase name="Debe lanzar excepción si el canal está vacío" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest" time="2.828"/>
+  <testcase name="Debe retornar pedidos por estado válido" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest" time="0.174"/>
+  <testcase name="Debe retornar todos los pedidos" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest" time="0.013"/>
+  <testcase name="Debe lanzar excepción si el estado está vacío en findByStatus" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest" time="0.005"/>
+  <testcase name="Debe lanzar excepción si el estado es inválido" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest" time="0.013"/>
+  <testcase name="Debe retornar un pedido por ID" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest" time="0.013"/>
+  <testcase name="Debe lanzar excepción si el ID es negativo" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest" time="0.002"/>
+  <testcase name="Debe lanzar excepción si el pedido no existe" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest" time="0.005"/>
+  <testcase name="Debe retornar los pedidos del día" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest" time="0.006"/>
+  <testcase name="Debe lanzar excepción si el ID es nulo" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest" time="0.004"/>
+  <testcase name="Debe lanzar excepción si el nombre supera el máximo permitido" classname="com.granishots.orders.domain.usecase.OrderUseCaseTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\CAMILO\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.19\154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1\byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
