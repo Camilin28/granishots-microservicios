@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="findBySize()" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-29T02:02:57.870Z" hostname="DESKTOP-4RNLC2K" time="0.026">
+<testsuite name="findBySize()" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-29T04:08:57.079Z" hostname="DESKTOP-4RNLC2K" time="0.025">
   <properties/>
-  <testcase name="Debe lanzar excepción si el tamaño es inválido" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$FindBySize" time="0.011"/>
+  <testcase name="Debe lanzar excepción si el tamaño es inválido" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$FindBySize" time="0.005"/>
   <testcase name="Debe lanzar excepción si el tamaño está vacío" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$FindBySize" time="0.005"/>
-  <testcase name="Debe retornar productos por tamaño válido" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$FindBySize" time="0.006"/>
+  <testcase name="Debe retornar productos por tamaño válido" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$FindBySize" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="deleteById()" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-29T02:02:57.901Z" hostname="DESKTOP-4RNLC2K" time="0.017">
+<testsuite name="deleteById()" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-29T04:08:57.106Z" hostname="DESKTOP-4RNLC2K" time="0.019">
   <properties/>
-  <testcase name="Debe lanzar 404 si el producto no existe" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$DeleteById" time="0.004"/>
-  <testcase name="Debe eliminar el producto cuando existe" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$DeleteById" time="0.011"/>
+  <testcase name="Debe lanzar 404 si el producto no existe" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$DeleteById" time="0.005"/>
+  <testcase name="Debe eliminar el producto cuando existe" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$DeleteById" time="0.01"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

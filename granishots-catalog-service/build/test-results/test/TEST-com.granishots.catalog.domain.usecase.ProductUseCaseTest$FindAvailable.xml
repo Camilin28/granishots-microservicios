@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="findAvailable()" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-05-29T02:02:57.859Z" hostname="DESKTOP-4RNLC2K" time="0.006">
+<testsuite name="findAvailable()" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-05-29T04:08:57.065Z" hostname="DESKTOP-4RNLC2K" time="0.011">
   <properties/>
-  <testcase name="Debe retornar productos disponibles" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$FindAvailable" time="0.006"/>
+  <testcase name="Debe retornar productos disponibles" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$FindAvailable" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

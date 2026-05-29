@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="validarProducto() — casos límite" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-05-29T02:02:54.737Z" hostname="DESKTOP-4RNLC2K" time="2.834">
+<testsuite name="validarProducto() — casos límite" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-05-29T04:08:55.279Z" hostname="DESKTOP-4RNLC2K" time="1.604">
   <properties/>
-  <testcase name="Debe lanzar excepción si el precio es nulo" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$ValidarProductoCasosLimite" time="2.746"/>
-  <testcase name="Debe lanzar excepción si la descripción supera 500 caracteres" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$ValidarProductoCasosLimite" time="0.004"/>
-  <testcase name="Debe lanzar excepción si el tamaño está vacío" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$ValidarProductoCasosLimite" time="0.007"/>
-  <testcase name="Debe lanzar excepción si el nombre supera 100 caracteres" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$ValidarProductoCasosLimite" time="0.008"/>
-  <testcase name="Debe lanzar excepción si el nombre está vacío" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$ValidarProductoCasosLimite" time="0.007"/>
-  <testcase name="Debe lanzar excepción si la categoría está vacía" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$ValidarProductoCasosLimite" time="0.009"/>
-  <testcase name="Debe lanzar excepción si el precio supera el máximo" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$ValidarProductoCasosLimite" time="0.016"/>
+  <testcase name="Debe lanzar excepción si el precio es nulo" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$ValidarProductoCasosLimite" time="1.533"/>
+  <testcase name="Debe lanzar excepción si la descripción supera 500 caracteres" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$ValidarProductoCasosLimite" time="0.006"/>
+  <testcase name="Debe lanzar excepción si el tamaño está vacío" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$ValidarProductoCasosLimite" time="0.014"/>
+  <testcase name="Debe lanzar excepción si el nombre supera 100 caracteres" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$ValidarProductoCasosLimite" time="0.007"/>
+  <testcase name="Debe lanzar excepción si el nombre está vacío" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$ValidarProductoCasosLimite" time="0.006"/>
+  <testcase name="Debe lanzar excepción si la categoría está vacía" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$ValidarProductoCasosLimite" time="0.007"/>
+  <testcase name="Debe lanzar excepción si el precio supera el máximo" classname="com.granishots.catalog.domain.usecase.ProductUseCaseTest$ValidarProductoCasosLimite" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\CAMILO\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.19\154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1\byte-buddy-agent-1.14.19.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
