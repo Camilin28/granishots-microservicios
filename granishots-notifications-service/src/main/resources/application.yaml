@@ -1,24 +1,26 @@
-spring:
-  application:
-    name: granishots-catalog-service
-
-  datasource:
-    url: ${SPRING_DATASOURCE_URL}
-    username: ${SPRING_DATASOURCE_USERNAME}
-    password: ${SPRING_DATASOURCE_PASSWORD}
-    driver-class-name: org.postgresql.Driver
-
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    open-in-view: false
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-
-server:
-  port: ${PORT:8080}
+  spring.application.name=granishots-catalog-service
+    
+    server.port=${PORT:8080}
+    
+    # ===============================
+    # DATABASE
+    # ===============================
+    spring.datasource.url=${SPRING_DATASOURCE_URL}
+    spring.datasource.username=${SPRING_DATASOURCE_USERNAME}
+    spring.datasource.password=${SPRING_DATASOURCE_PASSWORD}
+    spring.datasource.driver-class-name=org.postgresql.Driver
+    
+    # ===============================
+    # JPA / HIBERNATE
+    # ===============================
+    spring.jpa.hibernate.ddl-auto=update
+    spring.jpa.show-sql=true
+    spring.jpa.properties.hibernate.format_sql=true
+    
+    # ===============================
+    # OPTIONAL
+    # ===============================
+    spring.jpa.open-in-view=false
 
 # ── Twilio Configuration ──────────────────────────────────────────────────────
 twilio:

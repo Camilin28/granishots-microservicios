@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71b8568d-a49c-4957-b968-216a5e5dd0f4" name="Changes" comment="cambios de dockerflie" />
+    <list default="true" id="71b8568d-a49c-4957-b968-216a5e5dd0f4" name="Changes" comment="cambios de la base de datos">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -305,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780032783429</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cambios de la base de datos">
+      <option name="closed" value="true" />
+      <created>1780034386467</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1780034386467</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -314,7 +324,8 @@
     </ignored-roots>
     <MESSAGE value="cambios" />
     <MESSAGE value="cambios de dockerflie" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios de dockerflie" />
+    <MESSAGE value="cambios de la base de datos" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios de la base de datos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
