@@ -23,7 +23,7 @@ server:
 # ── Twilio Configuration ──────────────────────────────────────────────────────
 twilio:
   account-sid: AC823044972c85ed8920b1347c4e1c7fd9
-  auth-token: 24f1b4c2699f11916d4ecd779a7c63d5
+  auth-token: cdcf6fd1bc2cdc7a78da7fe35a754d2d
   phone-number: "+18392227142"
 
 # ── Email Configuration (SendGrid — pendiente activación) ─────────────────────

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71b8568d-a49c-4957-b968-216a5e5dd0f4" name="Changes" comment="Correcccion de puerto">
+    <list default="true" id="71b8568d-a49c-4957-b968-216a5e5dd0f4" name="Changes" comment="Prueba de salud en login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/granishots-login-service/src/main/java/com/granishots/login/infraestructure/entry_points/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/granishots-login-service/src/main/java/com/granishots/login/infraestructure/entry_points/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,32 +85,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.NotificationUseCaseTest.executor": "Coverage",
-    "Gradle.OrderUseCaseTest.executor": "Coverage",
-    "Gradle.ProductUseCaseTest.executor": "Coverage",
-    "Gradle.SupplyUseCaseTest.executor": "Coverage",
-    "Gradle.Tests in 'com.granishots.catalog.domain.usecase'.executor": "Coverage",
-    "Gradle.Tests in 'com.granishots.login.domain.usecase'.executor": "Coverage",
-    "Gradle.Tests in 'com.granishots.notifications'.executor": "Coverage",
-    "Gradle.Tests in 'com.granishots.notifications.domain.usecase'.executor": "Coverage",
-    "Gradle.UserUseCaseTest.executor": "Coverage",
-    "Gradle.granishots [build].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/CAMILO/Desktop/granishots/granishots-orders-service",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.NotificationUseCaseTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.OrderUseCaseTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.ProductUseCaseTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.SupplyUseCaseTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.Tests in 'com.granishots.catalog.domain.usecase'.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.Tests in 'com.granishots.login.domain.usecase'.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.Tests in 'com.granishots.notifications'.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.Tests in 'com.granishots.notifications.domain.usecase'.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.UserUseCaseTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.granishots [build].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CAMILO/Desktop/granishots/granishots-orders-service&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CAMILO\Desktop\granishots\granishots-orders-service" />
@@ -367,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780085087962</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Prueba de salud en login">
+      <option name="closed" value="true" />
+      <created>1780086495070</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1780086495070</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -382,7 +389,8 @@
     <MESSAGE value="Cambio de servidor" />
     <MESSAGE value="Creacion de docker para cada microservicio" />
     <MESSAGE value="Correcccion de puerto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcccion de puerto" />
+    <MESSAGE value="Prueba de salud en login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba de salud en login" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
